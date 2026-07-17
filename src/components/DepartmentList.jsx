@@ -71,7 +71,7 @@ function DepartmentList() {
 
             <table className="table table-bordered table-striped text-center align-middle">
 
-                <thead a>
+                <thead className="table-dark">
                     <tr>
                         <th>ID</th>
                         <th>Department Name</th>
