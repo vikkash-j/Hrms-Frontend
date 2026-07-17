@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:8080/employee";
+const BASE_URL = "https://hrms-backend-pfoy.onrender.com/employee";
 
 class EmployeeService {
 
@@ -25,4 +25,6 @@ class EmployeeService {
     }
 }
 
-export default new EmployeeService();
+const employeeService = new EmployeeService();
+
+export default employeeService;

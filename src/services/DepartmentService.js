@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:8080/department";
+const BASE_URL = "https://hrms-backend-pfoy.onrender.com/department";
 
 class DepartmentService {
 
@@ -25,4 +25,6 @@ class DepartmentService {
     }
 }
 
-export default new DepartmentService();
+const departmentService = new DepartmentService();
+
+export default departmentService;
